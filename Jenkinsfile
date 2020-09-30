@@ -3,7 +3,7 @@ pipeline{
         stages{
             stage('Make files'){
                 steps{
-                    sh "run.sh"
+                    sh "hello.sh"
                 }
             }
             
